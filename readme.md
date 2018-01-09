@@ -15,7 +15,7 @@ To install this package you will need:
 Install via composer to require the package.
 
 ```bash
-$ composer require barryvdh/laravel-debugbar --dev
+$ composer require jlpiriz/laravel-helpers
 ```
     
 Laravel 5.5 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
