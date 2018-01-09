@@ -1,21 +1,21 @@
 {
     "name": "jlpiriz/laravel-helpers",
-    "description": "Package with useful things for Laravel 5.5 or hightest",
+    "description": "Package with useful things for Laravel 5.5 or highest",
     "type": "library",
     "time": "2017-12-16",    
     "keywords": ["package", "useful", "helpers", "simple"],
-    "homepage": "https://github.com/jopatan/helpers-l5",
+    "homepage": "https://github.com/jlpiriz/laravel-helpers",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jonatan López",
+            "name":  "Jonatan López",
             "email": "jlpiriz.aplifisa@gmail.com",
-            "role": "Developer"
+            "role":  "Developer"
         }
     ],
     "require": {
         "php": ">=7.1.0",
-        "illuminate/support": "5.5.x || 5.6.x"
+        "illuminate/support": "^5.5"
     },
     "autoload": {
         "psr-4": {
@@ -24,7 +24,11 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Jlpiriz\\LaravelHelpers\\Providers\\HelpersServiceProvider"
+            ]
         }
     },
     "config": {
